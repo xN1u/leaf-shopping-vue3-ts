@@ -1,4 +1,4 @@
-# vue-rabbit-shopping
+# vue-greenery-shopping
 
 技术栈： Vue3、Pinia、Vite、TypeScript、Element-UI Plus.
 代码规范：ESlint、prettier.
