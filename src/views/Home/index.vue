@@ -7,7 +7,7 @@
   </div>
   <HomeNew />
   <HomeHot />
-  <homeProduct />
+  <HomeProduct />
 </template>
 
 <style scoped></style>

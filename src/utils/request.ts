@@ -47,10 +47,6 @@ instance.interceptors.response.use(
       // 先判断err.response是否存在，避免访问不存在的属性
       const errorMsg = err.response?.data?.message || '服务异常'
       ElMessage({ message: errorMsg, type: 'error' })
-
-      if (err.response?.status === 401) {
-        router.push('/login')
-      }
       return Promise.reject(err)
     } catch (error) {
       // 捕获错误处理逻辑中产生的错误（比如ElMessage调用失败）

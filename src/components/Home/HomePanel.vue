@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { defineProps } from 'vue'
 import type { ProductMainCategory } from '@/types/goods'
 
 defineProps<{
@@ -34,8 +33,10 @@ defineProps<{
 h2 {
   text-align: left;
 }
+
 .box {
   display: flex;
+  padding: 20px 0;
   .cover {
     width: 240px;
     height: 610px;

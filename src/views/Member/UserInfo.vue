@@ -339,7 +339,7 @@ onMounted(async () => {
       }
 
       .el-card.active {
-        background-color: lighten($xtxColor, 40%);
+        background-color: $xtxColor;
         border-color: $xtxColor;
       }
     }

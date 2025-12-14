@@ -24,27 +24,10 @@ onMounted(async () => {
   background: #fff;
   margin-top: 20px;
   display: flex;
-  flex-direction: column; // 多个 HomePanel 纵向堆叠
-  align-items: center; // 让每个 HomePanel 水平居中
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   position: relative;
   background-color: #fff;
-  .sub {
-    margin-bottom: 2px;
-    a {
-      padding: 2px 12px;
-      font-size: 16px;
-      border-radius: 4px;
-
-      &:hover {
-        background: $xtxColor;
-        color: #fff;
-      }
-
-      &:last-child {
-        margin-right: 80px;
-      }
-    }
-  }
 }
 </style>
